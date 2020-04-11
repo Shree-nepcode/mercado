@@ -1,0 +1,240 @@
+@import url('https://fonts.googleapis.com/css?family=Concert+One|Lobster+Two&display=swap');
+body{
+  background-color: #ebc8b2;
+}
+.container{
+  position: relative;
+  width: 100%;
+  margin-top:0px;
+}
+.nav{
+background-color:  #800000;
+color: white;
+text-align: right;
+border-radius: 10px 10px 10px 10px;
+
+}
+.imglogo{
+  margin-left: 50px;
+  float: left;
+  margin-top: 0px;
+  max-width: 100%;
+  height: auto;
+
+}
+.nav ul{
+  list-style:none;
+  display: inline-flex;
+ font-family: Titillium Web, sans-serif;
+ font-size: 25px;
+ text-align: right;
+
+}
+.nav ul li{
+  display: block;
+  margin-left: : 50px;
+  margin-top: opx;
+  margin-right: 50px;
+  float: right;
+  margin-bottom: 0px;
+}
+#sup{
+  margin-left: 20px;
+font-size:20px;
+color: white;
+font-family:Titillium Web, sans-serif;
+display:inline-block;
+}
+.nav a:hover {
+  color: black;
+  background-color: white;
+
+}
+a{
+color: inherit;
+}
+.abt{
+  width: 100%;
+text-align:center;
+font-size: 40px;
+background-color:#ebc8b2;
+color: white;
+border-radius: 25px 20px 20px 20px;
+float: center;
+font-family: 'Titillium Web', sans-serif;
+position: relative;
+
+}
+
+.Name{
+  font-family: 'Titillium Web', sans-serif;
+  letter-spacing: 10px;
+  border: 1px solid white;
+  background-color: white;
+  color:black;
+  border-radius: 15px;
+}
+
+.Des{
+  font-size: 35px;
+       position: relative;
+   animation: mymove 5s 1;
+
+  }
+  @keyframes mymove {
+    from {left: -200px;}
+    to {left: 200px;}
+  }
+.Des h5 ul{
+  font-family: 'Titillium Web', sans-serif;
+  list-style-type:none;
+  display: inline-flex;
+  display: block;
+  text-align: center;
+
+}
+.Des h5 ul li{
+  margin-bottom: 10px;
+}
+.Des h5 ul li a{
+    text-decoration: none;
+    color: White;
+
+
+}
+.Des h5 ul li a:hover{
+  color: black;
+  font-size: 40px;
+}
+.image{
+  max-width:100%;
+  border: 5px solid black;
+  height: auto;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  opacity: 0.75;
+  position: relative;
+  }
+
+  footer{
+     display: flex;
+      flex-flow: row wrap;
+      background-color: #800000;
+      border-top: 2px solid #000000;
+      width: 100%;
+
+      }
+      .footer > * {
+    flex:  1 100%;
+  }
+      .left{
+        margin-right: 100px;
+        margin-left: 50px;
+      }
+  .left p{
+    font-family: 'Lobster', cursive;
+    font-size:30px;
+  }
+  .cent{
+    margin-right: 100px;
+    margin-left: 50px;
+    }
+  .cent ul{
+    list-style-type: none;
+    font-size:20px;
+
+  }
+  .cent ul li{
+    margin-bottom: 15px;
+    font-family: Titillium Web, sans-serif;
+
+
+  }
+  .cent ul li i{
+    margin-right: 5px;
+    font-size:20px;
+    display: inline-flex;
+    align-items: center;
+    flex-flow: row wrap;
+
+  }
+  .right{
+
+    font-family: Titillium Web, sans-serif;
+    margin-left: 50px;
+  }
+  .right ul{
+    list-style-type: none;
+    font-size:20px;
+    display: flex;
+
+  }
+  .right ul li i{
+    margin-right: 10px;
+  font-size:30px;
+  }
+  .right p{
+  font-size:20px;
+  font-weight: bold;
+  }
+
+
+/* This is For Drop down*/
+.navbar {
+  overflow: hidden;
+  color: black;
+
+}
+
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.dropdown .dropbtn {
+  font-size: 25px;
+  border: none;
+  outline: none;
+text-decoration: underline;
+  color: white;
+    background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: #ffffff;
+  color: black;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+/* Drop Down Button Ends Here */

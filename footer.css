@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css?family=Concert+One|Lobster+Two&display=swap');
+footer{
+   display: flex;
+    flex-flow: row wrap;
+    background-color: #800000;
+    border-top: 2px solid #000000;
+    width: 100%;
+
+    }
+
+    .left{
+      margin-right: 100px;
+      margin-left: 50px;
+    }
+.left p{
+  font-family: 'Lobster', cursive;
+  font-size:30px;
+}
+.cent{
+  margin-right: 100px;
+  margin-left: 50px;
+  }
+.cent ul{
+  list-style-type: none;
+  font-size:20px;
+
+}
+.cent ul li{
+  margin-bottom: 15px;
+  font-family: Titillium Web, sans-serif;
+
+
+}
+.cent ul li i{
+  margin-right: 5px;
+  font-size:20px;
+  display: inline-flex;
+  align-items: center;
+  flex-flow: row wrap;
+
+}
+.right{
+
+  font-family: Titillium Web, sans-serif;
+  margin-left: 50px;
+}
+.right ul{
+  list-style-type: none;
+  font-size:20px;
+  display: flex;
+
+}
+.right ul li i{
+  margin-right: 10px;
+font-size:30px;
+}
+.right p{
+font-size:20px;
+font-weight: bold;
+}
+/* Footer Ends Here  */
+
+.abtimage{
+  max-width:100%;
+  height: auto;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  }
+.AboutME{
+
+}
+.AboutME span{
+font-family: Titillium Web, sans-serif;
+font-weight: bold;
+font-size: 25px;
+margin-top:20px;
+}
+.AboutME{
+  font-family: Titillium Web, sans-serif;
+  font-weight: italic;
+  font-size: 20px;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-top:20px;
+}
